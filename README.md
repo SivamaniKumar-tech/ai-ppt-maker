@@ -60,3 +60,21 @@ python app.py
 
 
 
+
+
+
+
+📌 Example API call
+
+
+
+POST /generate
+
+{
+
+&nbsp; "topic": "Zero Trust Security"
+
+}
+
+
+
