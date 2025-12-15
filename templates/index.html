@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Presentation Maker</title>
+</head>
+<body>
+  <h2>AI Presentation Maker</h2>
+
+  <form method="POST" action="/generate">
+    <label>Topic:</label><br>
+    <input name="topic" required><br><br>
+
+    <label>Number of Slides:</label><br>
+    <input name="slides" type="number" value="10"><br><br>
+
+    <label>Tone:</label><br>
+    <select name="tone">
+      <option>Beginner</option>
+      <option>Business</option>
+      <option>Academic</option>
+    </select><br><br>
+
+    <label>Extra Notes:</label><br>
+    <textarea name="notes"></textarea><br><br>
+
+    <button type="submit">Generate Presentation</button>
+  </form>
+</body>
+</html>
